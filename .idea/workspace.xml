@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83a906f6-ddc3-4ffb-9a76-ed382ccea244" name="Changes" comment="Added miscellaneous files">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Car.kt" afterDir="false" />
+    <list default="true" id="83a906f6-ddc3-4ffb-9a76-ed382ccea244" name="Changes" comment="Implemented and tested Car class">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/CargoVan.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Limo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PassengerVan.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Van.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Car.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Car.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,13 +34,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
@@ -93,7 +99,28 @@
       <option name="project" value="LOCAL" />
       <updated>1670607243570</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated workspace xml">
+      <created>1670625410714</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670625410714</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added Car class">
+      <created>1670625421517</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670625421517</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implemented and tested Car class">
+      <created>1670625431090</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670625431090</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +140,9 @@
     <MESSAGE value="Added Vehicle class" />
     <MESSAGE value="Implemented and tested Vehicle class" />
     <MESSAGE value="Added miscellaneous files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added miscellaneous files" />
+    <MESSAGE value="Updated workspace xml" />
+    <MESSAGE value="Added Car class" />
+    <MESSAGE value="Implemented and tested Car class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented and tested Car class" />
   </component>
 </project>
