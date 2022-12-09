@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83a906f6-ddc3-4ffb-9a76-ed382ccea244" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rent-a-car.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Vehicle.kt" afterDir="false" />
+    <list default="true" id="83a906f6-ddc3-4ffb-9a76-ed382ccea244" name="Changes" comment="Added miscellaneous files">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Car.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +58,42 @@
       <option name="presentableId" value="Default" />
       <updated>1670606793226</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added gitignore">
+      <created>1670607176952</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670607176952</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added README">
+      <created>1670607183247</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670607183247</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Vehicle class">
+      <created>1670607197174</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670607197174</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implemented and tested Vehicle class">
+      <created>1670607205904</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670607205904</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added miscellaneous files">
+      <created>1670607243570</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670607243570</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,5 +106,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added gitignore" />
+    <MESSAGE value="Added README" />
+    <MESSAGE value="Added Vehicle class" />
+    <MESSAGE value="Implemented and tested Vehicle class" />
+    <MESSAGE value="Added miscellaneous files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added miscellaneous files" />
   </component>
 </project>
