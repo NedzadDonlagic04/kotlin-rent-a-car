@@ -26,20 +26,20 @@ which will be listed below in Bosnian:
    sva vozila koja imaju zapreminu teretnog prostora ili prtljaznika vecu od trazene.
    <br><br>
    Za isjecak koda koji slijedi:<br><br>
-   Vehicle v = new Car("DA1234AA", "Renault Clio", 2001, 20, "coupe", 200);<br>
-   Car car = new Car("DA8818BB", "Renault Megane Grandtour", 2007, 25, "caravan", 800);<br>
-   Van van1 = new CargoVan("DA0009PO", "Volkswagen Transporter", 2018, 28, 2, (short)3, 4500);<br>
-   PassengerVan van2 = new PassengerVan("DA6282EA", "IMV 1600", 1978, 35, 2, (short)3, 0);<br>
-   Vehicle limo = new Limo("DA2238AB", "Zastava 750 LE", 1983, 220, 3.2, false, false);<br>
+   val v: Vehicle = Car("DA1234AA", "Renault Clio", 2001, 20.0, "coupe", 200.0)<br>
+   val car = Car("DA8818BB", "Renault Megane Grandtour", 2007, 25.0, "caravan", 800.0)<br>
+   val van1: Van = CargoVan("DA0009PO", "Volkswagen Transporter", 2018, 28.0, 2.0, 3, 4500.0)<br>
+   val van2 = PassengerVan("DA6282EA", "IMV 1600", 1978, 35.0, 2.0, 3, 0)<br>
+   val limo: Vehicle = Limo("DA2238AB", "Zastava 750 LE", 1983, 220.0, 3.2, miniBar = false, sunRoof = false)<br>
    <br>
-   System.out.println(v.getModel() + " price per day: " + v.getPricePerDay());<br>
-   System.out.println(van1.getModel() + "price per day: " + van1.getPricePerDay());<br>
-   System.out.println(van2.getModel() + "price per day: " + van2.getPricePerDay());<br>
+   println(v.getModel() + " price per day: " + v.getPricePerDay())<br>
+   println(van1.getModel() + " price per day: " + van1.getPricePerDay())<br>
+   println(van2.getModel() + " price per month: " + van2.getPricePerMonth())<br>
    <br>
-   Vehicle newest = Vehicle.getNewestVehicle(v, car, van1, van2, limo);<br>
-   System.out.println("Newest: " + newest.getModel() + ", " + newest.getYear());<br>
+   val newest: Vehicle? = Vehicle.getNewestVehicle(v, car, van1, van2, limo)<br>
+   println("Newest: " + newest?.getModel() + ", " + newest?.getYear())<br>
    <br>
-   Vehicle.printAllVehiclesWithCargoSpaceGreaterThan(500, v, car, van1, van2, limo);<br>
+   Vehicle.printAllVehiclesWithCargoSpaceGreaterThan(500.0, v, car, van1, van2, limo)<br>
    <br>
    ocekuje se ovakav ispis:<br>
    <br>
