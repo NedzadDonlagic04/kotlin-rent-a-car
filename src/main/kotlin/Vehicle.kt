@@ -33,7 +33,7 @@ open class Vehicle(private var regNo: String, private var model: String, private
         fun getNewestVehicle(vararg vehicles: Vehicle): Vehicle? {
             if(vehicles.isEmpty()) return null
 
-            var newest = vehicles[0];
+            var newest = vehicles[0]
 
             for(i in 1 until vehicles.size) {
                 if(newest.getYear() < vehicles[i].getYear()) {
