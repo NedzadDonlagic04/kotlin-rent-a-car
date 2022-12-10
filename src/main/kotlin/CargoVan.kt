@@ -5,4 +5,7 @@ class CargoVan(regNo: String, model: String, year: Int, price: Double, height: D
     }
 
     fun getMaxLoad(): Double = this.maxLoad
+
+    override fun getPricePerDay(): Double = super.getPricePerDay() * 1.1
+                                            // ^ 110% of the price per day
 }

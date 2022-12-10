@@ -17,4 +17,7 @@ class Limo(regNo: String, model: String, year: Int, price: Double, private var l
     fun getMiniBar(): Boolean = this.miniBar
 
     fun getSunRoof(): Boolean = this.sunRoof
+
+    override fun getPricePerDay(): Double = super.getPricePerDay() * 1.5
+                                            // ^ 150% of the price per day
 }

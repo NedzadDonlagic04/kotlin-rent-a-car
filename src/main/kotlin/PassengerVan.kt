@@ -5,4 +5,7 @@ class PassengerVan(regNo: String, model: String, year: Int, price: Double, heigh
     }
 
     fun getNoOfPassenger(): Int = this.noOfPassenger
+
+    override fun getPricePerDay(): Double = super.getPricePerDay() * 0.8
+                                            // ^ 80% of the price per day
 }
